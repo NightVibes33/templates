@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       toml:
-        specifier: ^3.0.0
-        version: 3.0.0
+        specifier: ^5.0.1
+        version: 5.0.1
       yaml:
         specifier: 2.7.1
         version: 2.7.1
@@ -202,8 +202,9 @@ packages:
   resolve-pkg-maps@1.0.0:
     resolution: {integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==}
 
-  toml@3.0.0:
-    resolution: {integrity: sha512-y/mWCZinnvxjTKYhJ+pYxwD0mRLVvOtdS2Awbgxln6iEnt4rk0yBxeSBHkGJcPucRiG0e55mwWp+g/05rsrd6w==}
+  toml@5.0.1:
+    resolution: {integrity: sha512-EqYNA/YvUNndrA2B3O2ojzLQoTQrBxeZ9UIjQwk8t10oe6n7dwclBwd9IdZQTOKwe6vWX+AXtl6IntXRbepdxQ==}
+    engines: {node: '>=20'}
 
   tsx@4.21.0:
     resolution: {integrity: sha512-5C1sg4USs1lfG0GFb2RLXsdpXqBSEhAaA/0kPL01wxzpMqLILNxIxIOKiILz+cdg/pLnOUxFYOR5yhHU666wbw==}
@@ -345,7 +346,7 @@ snapshots:
 
   resolve-pkg-maps@1.0.0: {}
 
-  toml@3.0.0: {}
+  toml@5.0.1: {}
 
   tsx@4.21.0:
     dependencies:
